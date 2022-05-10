@@ -10,7 +10,7 @@ To compute conveniently, resize each LR image into [h, w] as [339,  510], HR ima
 We set two comparison experiments for the image super-resolution:
 
   1th: Use SRCNN to super-resolution with sub-pixel convolution to upscale X4 at the 3rd layer of SRCNN, compute PSNR of <predictions, targets> in test set, 
-
+  
   2th: Use plain bicubic directly onto test set, compute PSNR of  <bicubiced features, targets>
 
   then we compare PSNR plottings and one image processed by two means 
